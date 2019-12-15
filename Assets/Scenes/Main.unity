@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -225,7 +225,7 @@ Transform:
   - {fileID: 1592113484}
   - {fileID: 741676612}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &146576877
 PrefabInstance:
@@ -739,7 +739,7 @@ PrefabInstance:
     - target: {fileID: 4817573632745938944, guid: ce2331d234b858448a1410290f7724b8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4817573632745938944, guid: ce2331d234b858448a1410290f7724b8,
         type: 3}
@@ -1572,8 +1572,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.680445e+20, y: 3.7217724e+31, z: -4.987176e-37,
-    w: -3.7449435e-13}
+  m_BoundingSphereOverride: {x: -Infinity, y: 1.0587911e-22, z: 0, w: 1.8e-43}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1589,7 +1588,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &709782848
 PrefabInstance:
@@ -1710,7 +1709,7 @@ PrefabInstance:
     - target: {fileID: 4817573632745938944, guid: ce2331d234b858448a1410290f7724b8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4817573632745938944, guid: ce2331d234b858448a1410290f7724b8,
         type: 3}
@@ -4500,7 +4499,7 @@ PrefabInstance:
     - target: {fileID: 5914405467588126505, guid: d633acb4b0a2db04191dbfebc398675f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.679
+      value: 4.18
       objectReference: {fileID: 0}
     - target: {fileID: 5914405467588126505, guid: d633acb4b0a2db04191dbfebc398675f,
         type: 3}
@@ -4863,6 +4862,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e7ea0c1311de9744382de77dd8f98e55, type: 2}
+    - target: {fileID: 2919723875201093321, guid: 43ae033a2bc4f924f8190939954cc320,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4926896886600940103, guid: 43ae033a2bc4f924f8190939954cc320,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
